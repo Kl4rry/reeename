@@ -1,0 +1,20 @@
+[package]
+name = "reeename"
+version = "0.1.0"
+edition = "2021"
+description = "Rename files easily"
+license = "MIT"
+homepage = "https://github.com/Kl4rry/reeename"
+repository = "https://github.com/Kl4rry/reeename"
+
+
+[[bin]]
+name = "rename"
+path = "src/main.rs"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+anyhow = "1.0.66"
+clap = { version = "4.0.26", features = ["derive"] }
+rustyline = "10.0.0"
